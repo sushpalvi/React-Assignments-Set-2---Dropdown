@@ -48,7 +48,7 @@ function Items({ states }) {
         <div id="city-description">{states[state].city[city].description}</div>
       </div>
       <div id="landmark-name">
-        <label htmlFor="landmark">Landmark</label>
+        <label htmlFor="landmark">City</label>
         <select id="landmark" onChange={updateLandmark}>
           {states[state].city[city].landmarks.map((landmark, id) => {
             return (
